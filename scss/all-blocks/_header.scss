@@ -1,0 +1,72 @@
+.site-header {
+    display: flex;
+    width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 61px;
+    background-color: #fff9ea;
+    height: 108px;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__nav {
+        width: 585px;
+    }
+
+    &__list {
+        display: flex;
+        column-gap: 37px;
+        list-style: none;
+    }
+
+    &__item {
+        height: 38px;
+        padding: 8px 0;
+    }
+
+    &__link {
+        font-weight: 500;
+        font-size: 22px;
+        height: 28px;
+        text-decoration: none;
+        color: $text-light;
+    }
+    &__link:active{
+        color: black;
+    }
+    &__item:active{
+        border-bottom: 3px solid $primary;
+    }
+
+    &__icon-wrapper {
+        width: 150px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        column-gap: 20px;
+        height: 39px;
+    }
+
+    &__icon-wrapper i {
+        font-size: 26px;
+    }
+    &__icon-wrapper img{
+        width: 40px;
+    }
+    .btn {
+        font-weight: 700;
+        font-size: 14px;
+        padding: 12px 24px;
+        border-radius: 50px;
+        background: #ffcb45;
+        border: none;    
+}
+
+    .btn i {
+        margin-right: 16px;
+        font-size: 17px;
+    }
+
+}
